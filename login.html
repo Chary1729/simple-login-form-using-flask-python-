@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+       p{
+           color: tomato;
+           font-size: 30px;
+       }
+       #id1{
+           color: blue;
+           font-size: 35px;
+       }
+        </style>
+   <body>
+      <form action = " http://127.0.0.1:5000/result" method = "POST">
+        <h1>LoginForm</h1>
+        <p>UserName</p><br>
+         <input type = "text" name="email" placeholder="enter email"/>
+         <p>Password</p>
+         <input type = "password" name="password" placeholder="enter password"/>
+         <p><input id="id1" type = "submit" value = "Login" /></p>
+      </form>
+   </body>
+    </head>
+</html>
